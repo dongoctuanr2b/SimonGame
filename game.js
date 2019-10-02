@@ -77,7 +77,7 @@ $(document).keydown(function() {
 });
 
 function checkAnswer(currentLevel) {
-  if (userClickedPattern[currentLevel] == gamePattern[currentLevel] /* kiểm tra index và element của 2 mảng */ ) {
+  if (userClickedPattern[currentLevel] == gamePattern[currentLevel] /* kiểm tra index cuối cùng của 2 mảng */ ) {
     if (userClickedPattern.length == gamePattern.length) { // kiểm tra length của mảng
 
       // gọi hàm nextSequence và reset mảng userClickedPattern thành empty,
